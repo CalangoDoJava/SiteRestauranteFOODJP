@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+ font-family: "Poppins", sans-serif;
+ background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: #ffffff; 
+    padding: 20px;
+}
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+.header-container img {
+    width: 154px; 
+    height: 41px;
+}
+
+nav {
+    display: flex;
+    gap: 56px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #232323;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color:#d4220b;
+}
+
+
+button {
+    background-color:#FF0000;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 12px 40px 12px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 60px;
+}
+
+button:hover {
+    background-color: #d4220b;
+}
+.comida-oriental {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 40px;
+}
+.texto-container {
+    font-weight: 400;
+    max-width: 500px;
+}
+.texto-container h2 {
+    font-family: "Koh Santepheap", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #232323;
+}
+.texto-container p {
+    font-size: 24px;
+    max-width: 500px; ;
+    color: #232323;
+    margin-bottom: 35px;
+}
+button {
+    background-color:#FF0000;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    height: 53px;
+    width: 229px;
+    border: none;
+    padding: 12px 40px 12px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 60px;
+}
+
+button:hover {
+    background-color: #d4220b;
+}
+
+
+.comida-oriental img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+/* Container principal */
+.terceira-parte {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.terceira-parte img {
+    width: 592px;
+    height: 500px;
+    border-radius: 16px;
+}
+
+
+.texto-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 40px;
+}
+
+.texto-container h3 {
+    color: red;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.texto-container h2 {
+    font-size: 48px;
+    color: #232323;
+    font-weight: 400;
+}
+
+.texto-container p {
+    margin-top: 23px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #232323;
+}
+/* Estilizando a seção Populares */
+.populares {
+    margin-top: 20px;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Estilizando o título principal */
+.populares h2 {
+    font-family: "Koh Santepheap", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+/* Container dos cards */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Para responsividade */
+}
+
+/* Estilizando os cards */
+.card {
+    background: #F8F5F2;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 384px;
+    height: 434px;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.card img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+.card img:hover {
+    transform: scale(1.1); 
+}
+
+.card h3 {
+    font-family: "Koh Santepheap", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #232323;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    font-size: 32px;
+    color: #FF0000;
+    font-weight: 400;
+}
+.comentarios {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.comentarios h2 {
+    font-family: "Koh Santepheap", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.card-dois{
+    background: #F8F5F2;
+    padding: 20px;
+    height: 390px;
+    width: 582px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    overflow: hidden;
+}
+
+.user-img {
+    width: 139px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.dish-img {
+    width: 168px;
+    height: 24px;
+    max-width: 250px;
+    height: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.card-dois h3 {
+    font-family: "Koh Santepheap", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.card-dois p {
+    margin-top: 20px;
+    font-size: 24px;
+    max-width: 450px;
+    font-weight: 400;
+    color: #232323;
+    margin-bottom: 10px;
+}
+.quatro-colunas {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.quatro-colunas h2 {
+    font-family: "Koh Santepheap", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cria 4 colunas */
+    gap: 10px;
+    justify-items: center;
+}
+
+.column {
+    background:  rgb(255, 255, 255);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.column h4 {
+    font-family: "Koh Santepheap", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.column a {
+    display: block;
+    font-size: 16px;
+    color: #232323;
+    text-decoration: none;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.column a:hover {
+   color: #d4220b;
+}
+.footer {
+    padding: 30px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.line {
+    height: 0.96px;
+    width: 1520px;
+    background-color:#dddddd;
+    margin-bottom: 10px;
+    margin-left: 155px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.large-images{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 25px;
+
+}
+.large-img {
+    width: 154px; /* Ajuste o tamanho da imagem grande conforme necessário */
+    height: 41px;
+}
+
+.small-images {
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+ margin-right: 130px;
+}
+
+.small-img {
+    width: 40px; /* Ajuste o tamanho das imagens pequenas conforme necessário */
+    height: auto;
+    border-radius: 8px;
+}
+/* Definições gerais para telas menores */
+@media (max-width: 1200px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .comida-oriental {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .comida-oriental img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .terceira-parte {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .terceira-parte img {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 20px;
+    }
+
+    .populares .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 384px;
+    }
+
+    .card-dois {
+        width: 100%;
+        max-width: 582px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas menores */
+    }
+
+    .column {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .large-images {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .small-images {
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .footer .line {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Definições para telas menores que 768px (dispositivos móveis) */
+@media (max-width: 768px) {
+    .header-container {
+        padding: 0 10px;
+    }
+
+    .header-container img {
+        width: 120px;
+        height: auto;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+
+    .comida-oriental {
+        padding: 10px;
+    }
+
+    .texto-container h2 {
+        font-size: 36px;
+    }
+
+    .texto-container p {
+        font-size: 18px;
+    }
+
+    .terceira-parte {
+        padding: 10px;
+    }
+
+    .terceira-parte img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .card-dois {
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr); /* 1 coluna em telas muito pequenas */
+    }
+
+    .footer-content {
+        text-align: center;
+    }
+
+    .large-images {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .small-images {
+        margin-right: 0;
+        justify-content: center;
+    }
+}
